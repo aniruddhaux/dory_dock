@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MEMR_0';
+    src: url('MEMR_0.eot');
+    src: url('MEMR_0.eot') format('embedded-opentype'),
+         url('MEMR_0.woff2') format('woff2'),
+         url('MEMR_0.woff') format('woff'),
+         url('MEMR_0.ttf') format('truetype'),
+         url('MEMR_0.svg#MEMR_0') format('svg');
+}

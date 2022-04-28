@@ -1,0 +1,643 @@
+
+::-moz-selection {
+	background:rgba(0,0,0,0);
+	}
+::selection { 
+	background:rgba(0,0,0,0);
+	} 	
+	
+body{ 
+  	margin:0; 
+ 	padding:0; 
+ 	font-family:Lato;
+	color:#454545;
+	background:url(../images/background.jpg) no-repeat fixed center top;
+	background-size:100% auto; 
+ }
+*{margin:0; padding:0;}
+img,a{ border:none; outline:none;}
+a{ text-decoration:none;}
+ul,li{ list-style:none;}
+input, textarea, select{
+	outline:none;
+	}
+h1{ font-size:52px;}
+h2{ font-size:34px;}
+
+p{ 
+	 color: #3c3c3c;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 0 0 19px;
+	}
+
+.alignleft{
+	float:left;
+	margin:0 10px 15px 0;
+	}
+.alignright{
+	float:right;
+	margin:0 0px 15px 10px;
+	}
+.aligncenter{
+	display:block;
+	margin:15px auto;
+	}
+
+.clear{ clear:both; width:100%; height:auto;}
+.spacer10{ height:10px;}
+.spacer15{ height:15px;}
+.spacer20{ height:20px;}
+.spacer25{ height:25px;}
+.spacer30{ height:30px;}     
+.spacer40{ height:40px;}
+
+
+
+.wrapper{ 
+	width:1150px;
+	margin:0px auto;
+	position:relative;
+	}
+.wrapper:after{
+	clear:both;
+	display: block; 
+	content:'';
+	}
+/***************************
+	Header css start
+*****************************/
+.topBar{
+	 background: url(../images/dock&dory_pattern2.png) repeat 0 0;
+	 padding:25px 0;
+	 }
+.logo{
+	float:left;
+	width:309px;
+	}
+.logo img{}
+
+/**** banner *****/
+.banner{
+	position:relative;
+	overflow:hidden;
+	}
+.slides img {
+    display: table;
+    left: 50%;
+    margin-left: -1500px;
+    position: relative;
+    vertical-align: bottom;
+	}
+.caption{
+	float: left;
+    padding: 96px 0 0;
+    width: 590px;
+	}
+.banner .wrapper{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	z-index:99;
+	}
+.caption h1{
+	color: #104867;
+    font-family: Grand Hotel;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 76px;
+    padding: 0 0 79px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35);
+	}
+.caption h1 i{
+	color: #262626;
+    display: block;
+    font-family: "FabfeltScriptBold";
+    font-size: 50px;
+    font-style: normal;
+	}
+.caption h1 span{
+	color: #9e0100;
+	display:block;
+	}
+.buyNow{
+	background: rgba(0, 0, 0, 0) url("../images/dock&dory_btnBg.png") no-repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 194px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content{}
+.aboutDD{
+	 background:url("../images/dock&dory_pattern4.png") repeat scroll center top;
+    padding: 52px 0 29px;
+	}
+.aboutDD p{
+	text-align:center;
+	}
+.content h2{
+    color: #545454;
+    font-family: "MEMR_0";
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 0px;
+    padding: 0 0 39px;
+	}
+.content h2 span{
+	font-family:Abril Fatface;
+	font-size:40px;
+	font-weight:500;
+	color:#2f2f2f;
+	}
+.aboutDD h2{
+	text-align:center;
+	background: url(../images/dock&dory_title_bar.png) no-repeat center bottom;
+	margin: 0 0 31px;
+	}
+
+
+/******* 
+	Build The Ultimate Floating Dock section
+ ****************/
+.ultFD{
+	padding:62px 0 0;
+	}
+/*.ultFD .wrapper:before{
+	 background: rgba(0, 0, 0, 0) url("../images/dock&dory_anchor.png") no-repeat scroll 0 0;
+    bottom: -30px;
+    content: "";
+    height: 126px;
+    left: 420px;
+    position: absolute;
+    width: 137px;
+	}*/
+.ultFD img{
+	float:right;
+	}
+.ultFD_det{
+	float:left;
+	width:60%;
+	}
+.readMore{
+	display:block;
+	font-family:Roboto;
+	font-size:17px;
+	font-weight:800;
+	color:#2f2f2f;
+	}
+
+
+/******* 
+	Grand Banks section
+ ****************/
+.grandBank{
+	 background: url(../images/dock&dory_pattern4.png) repeat 0 0;
+	 padding:62px 0 75px;
+	 }
+/*.grandBank .wrapper:before{
+	content:'';
+	bottom:-122px;
+	right:0;
+	width:193px;
+	height:125px;
+	position:absolute;
+	background: url(../images/dock&dory_boat.png) no-repeat 0 0;
+	}*/
+.grandBank img {
+	float:left;
+	}
+.grandBank_det{
+	float:right;
+	width:55%;
+	}
+
+
+/******* 
+	footer section
+ ****************/
+footer{
+	background: #2a2a2a none repeat scroll 0 0;
+    padding:40px 0 16px;
+	clear:both;
+	}
+.ftSocial{
+	display:table;
+	margin:0 auto;
+	}
+.ftSocial li{
+	float:left;
+	display:inline-block;
+	vertical-align:top;
+	margin:0 5px;
+	}
+.ftSocial li a{
+	display:block;
+	width:43px;
+	height:43px;
+	}
+.facebook{
+	 background: url(../images/dock&dory_facebook.png) no-repeat 0 0;
+	 }
+.twitter{
+	background: url(../images/dock&dory_twitter.png) no-repeat 0 0;
+	}
+.instagram{
+	background: url(../images/dock&dory_instagram.png) no-repeat 0 0;
+	}
+.gplus{
+	background: url(../images/dock&dory_gplus.png) no-repeat 0 0;
+	}
+.facebook:hover{
+	 background: url(../images/dock&dory_facebookH.png) no-repeat 0 0;
+	 }
+.twitter:hover{
+	background: url(../images/dock&dory_twitterH.png) no-repeat 0 0;
+	}
+.instagram:hover{
+	background: url(../images/dock&dory_instagramH.png) no-repeat 0 0;
+	}
+.gplus:hover{
+	background: url(../images/dock&dory_gplusH.png) no-repeat 0 0;
+	}
+
+.ftNav{
+	display: table;
+    margin: 27px auto 16px;
+	}
+.ftNav li{
+	float:left;
+	display:inline-block;
+	vertical-align:top;
+	}
+.ftNav li a{
+	font-family:Roboto;
+	font-size:16px;
+	font-weight:300;
+	color:#a9a9a9;
+	border-right:2px solid #6b6b6b;
+	padding:0 10px 0 12px;
+	margin:0 0 0 0;
+	}
+.ftNav li a:hover, .ftNav .current-menu-item a{
+	color:#e2b463 !important;
+	}
+.ftNav li:last-child a{
+	border-right:none;
+	padding:0 0px 0 12px;
+	}
+
+
+footer p{
+	font-family:Roboto;
+	font-size:16px;
+	font-weight:400;
+	color:#7a7979;
+	text-align: center;
+	}
+
+
+
+
+
+/***********************************
+	About Page css
+***********************************/
+.aboutBox{
+	padding: 75px 0;
+	}
+.aboutBox_det{
+	float:right;
+	width:60%;
+	}
+.aboutThumb{
+	border: 10px solid #fff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    float: left;
+    margin: 21px 0 0;
+    position: relative;
+    transform: rotate(-5deg);
+    width: 28%;
+	}
+.aboutThumb span{
+	overflow:hidden;
+	}
+.aboutThumb img{
+	height: auto;
+    vertical-align: bottom;
+    width: 100%;
+	}
+.aboutThumb:after{
+	 background: rgba(0, 0, 0, 0) url("../images/dock&dory_photo_pin.png") no-repeat scroll 0 0;
+    content: "";
+    height: 62px;
+    position: absolute;
+    right: -31px;
+    top: -35px;
+    width: 59px;
+	}
+.aboutLeftAlign .aboutBox_det{
+	float:left;
+	}
+.aboutLeftAlign{
+	background:rgba(0, 0, 0, 0) url("../images/dock&dory_pattern4.png") repeat scroll 0 0;
+	}
+.aboutLeftAlign .aboutThumb {
+    float: right;
+	}	
+.innerPgBn{}
+.innerPgBn img {
+    display: table;
+    left: 50%;
+    margin-left: -1500px;
+    position: relative;
+    vertical-align: bottom;
+	}
+.innerPgBn wrapper{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	z-index:99;
+	}
+.innerPgBn .caption h1 {
+    color: #6f1010;
+    font-size: 63px;
+    padding-bottom: 8px;
+	}	
+.innerPgBn p{
+	font-family:Roboto;
+	font-size:28px;
+	font-weight:400;
+	color:#4a4a4a;
+	}
+.innerPgBn .caption {
+    padding-top: 59px;
+    width: 701px;
+	}	
+	
+	
+
+
+
+/*******************************
+	Contact Page css
+************************************/	
+.contactPg{
+	padding: 43px 0 75px;
+	}
+.contactBox{}
+.form{
+	width:43.5%;
+	float:left;
+	}
+.form li{
+	margin: 0 0 17px;
+	}
+.form li input[type="text"]{
+	border: 1px solid #b1b1b1;
+    box-sizing: border-box;
+    color: #4c4c4c;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    padding: 0 14px;
+    width: 100%;
+	}
+.form li textarea{
+	border: 1px solid #b1b1b1;
+    box-sizing: border-box;
+    color: #4c4c4c;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    height: 103px;
+    line-height: 38px;
+    padding: 0 14px;
+    resize: vertical;
+    width: 100%;
+	}
+.form li input[type="submit"]{
+	 background: #104b70 none repeat scroll 0 0;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px #104b70;
+    color: #fff;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0 19px;
+    text-transform: uppercase;
+	transition:all ease 150ms 0s;
+	}
+.form li input[type="submit"]:hover{
+	 background: #00284d none repeat scroll 0 0;
+	}
+	
+.contactsDetails{
+	background: #f9f9f9 url("../images/dock&dory_map.png") no-repeat scroll center center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.17);
+    box-sizing: border-box;
+    float: right;
+    padding: 50px 58px;
+    width: 50%;
+	}
+.contactsDetails span{
+	color: #404040;
+    display: block;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 34px;
+    margin: 0 0 24px;
+    padding: 8px 0 17px 80px;
+    vertical-align: top;
+	}
+.contactsDetails span a{
+	color:#404040;
+	}
+.loc{
+	background: rgba(0, 0, 0, 0) url("../images/dock&dory_loc.png") no-repeat scroll 0 15px;
+	}
+.phone{
+	background: url(../images/dock&dory_call.png) no-repeat 0 0 ;
+	}
+.mail{
+	 background: rgba(0, 0, 0, 0) url("../images/dock&dory_mail.png") no-repeat scroll 0 0;
+    margin-bottom: 0 !important;
+	}
+
+
+
+
+/*******************************
+	Dory and Dock page css css
+************************************/	
+.productPg{
+	 padding: 75px 0;
+	 }
+.productLeftSec{
+	float: left;
+    margin-right: 3%;
+    width: 35.5%;
+	}
+.product_thumb{
+	margin-bottom:30px;
+	}	
+.product_thumb img {
+    height: auto;
+    width: 100%;
+	}	
+.buyNowBtn{
+     background: #104b70 none repeat scroll 0 0;
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 2px #104b70;
+    color: #fff;
+    cursor: pointer;
+    display: table;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 60px;
+    margin: 0 auto;
+    padding: 0 69px;
+    text-transform: uppercase;
+    transition: all 150ms ease 0s;
+	}
+.buyNowBtn:hover{
+     background: #002b50 none repeat scroll 0 0;
+	}
+.productDetails{
+	 background: rgba(0, 0, 0, 0) url("../images/dock&dory_book.png") no-repeat scroll right bottom;
+    float: right;
+    padding-bottom: 130px;
+    width: 61%;
+	}
+.dock{
+	 background: rgba(0, 0, 0, 0) url("../images/dock&dory_book3.png") no-repeat scroll right bottom;
+	 }	
+.productDetails h3{
+	 color: #104b70;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 8px 0 20px;
+	}
+.productDetails h4{
+	 color: #701110;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 0 0 16px;
+	}
+.productDetails p{
+	}
+.productPoints{}
+.productPoints li{
+	 background: rgba(0, 0, 0, 0) url("../images/dock&dory_bullet.png") no-repeat scroll 0 4px;
+    color: #4d4d4d;
+    display: block;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 20px;
+    padding: 0 0 0 30px;
+    vertical-align: top;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+/*******************************
+	Other Pionts Page css
+************************************/	
+.galleryPg{
+	padding:75px 0;
+	}
+.galleryPg p{
+	padding: 0 0 50px;
+    text-align: center;
+	}
+.productList{}
+.productList li{
+	display: inline-block;
+    float: left;
+    margin: 0 8.7% 0 0;
+    vertical-align: top;
+    width: 27.5%;
+	}
+.productList li:nth-child(3n){
+	margin-right:0;
+	}
+.productList li img{
+	 border: 10px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    vertical-align: bottom;
+    width: 78%;
+	z-index:2;
+	position:relative;
+	}
+.bookThumb span{
+	display:block;
+	margin-top:-4px;
+	z-index:1;
+	}
+.bookThumb span img{
+	box-shadow:none;
+	width:100%;
+	height:auto;
+	border:none;
+	z-index:1;
+	}
+.bookThumb{
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

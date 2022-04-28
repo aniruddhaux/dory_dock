@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FabfeltScriptBold';
+    src: url('FabfeltScriptBold.eot');
+    src: url('FabfeltScriptBold.eot') format('embedded-opentype'),
+         url('FabfeltScriptBold.woff2') format('woff2'),
+         url('FabfeltScriptBold.woff') format('woff'),
+         url('FabfeltScriptBold.ttf') format('truetype'),
+         url('FabfeltScriptBold.svg#FabfeltScriptBold') format('svg');
+}
